@@ -17,7 +17,7 @@ export default class App extends React.Component{
       this.setState({
         weather: responseJSON, 
       })
-      console.log(this.state.weather);
+      console.log("hello");
     })
   }
 
